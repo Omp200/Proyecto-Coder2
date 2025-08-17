@@ -7,16 +7,15 @@
 body{
     font-family: 'nata sans';
     font-size: 18px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    
     background: url(../img/bg-inicio.jpg) center;
     /*background: #0c076a;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);*/
     
 }
 
-.left img{
-    width: 70px;
+.navbar-brand img{
+    width: 50px;
     margin-left: 50px;
 }
 
@@ -31,22 +30,6 @@ li{
     
 }
 
-.navbar .left{
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    color: white;
-    
-}
-
-.navbar .left p{
-    padding-top:10px;
-    padding-left: 30px;
-    font-size: 20px;
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -59,17 +42,10 @@ li{
 */
     }
 
-.navbar .rigth{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-}
 
-.rigth a:hover{
+.navbar .navbar-collapse li a:hover{
     font-weight: 700;
-    color: #FE570B;
+    color: red;
 }
 
 .banner .banne{
@@ -219,7 +195,7 @@ footer{
 .box{
     display: flex;
     width: 100%;
-    margin: 50px 30px 50px 30px;
+    margin: 50px 0px 50px 0px;
 }
 
 .box .box-left{
@@ -464,4 +440,177 @@ footer{
     text-align: center;
     font-size: 18px;
     color: white;
+}
+
+/*Responsive Movile*/
+@media only screen and (max-width: 768px){
+    .banner .banne{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .container{
+        max-width: 70%;
+        margin: 0 auto;
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "burger1 burger1"
+        "burger2 burger2"
+        "acompanamiento1 acompanamiento1"
+        "acompanamiento2 acompanamiento2"
+        "promociones promociones"
+        ;
+        gap: 10px;
+        }
+
+    .contenido .encima{
+        font-size: 25px;
+    }
+
+    .anuncio{
+        background-color: rgb(37, 36, 36);
+        padding: 10px ;  
+        color: white;
+        margin: 30px 6rem;
+        font-size: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        font-weight: bold;
+        }
+
+    .anuncio .carta{
+        text-decoration: none;
+        font-size: 15px;
+        background-color: red;
+        padding: 5px;
+        border-radius: 10px;
+        }
+
+    .anuncio p{
+            padding-top: 20px;
+        }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards #img1{
+        width: 20rem !important; 
+        height: 30rem;
+    }
+
+    .cards #img2{
+        width: 20rem !important; 
+        height: 30rem;
+    }
+
+    .cards #img3{
+        width: 20rem !important; 
+        height: 30rem;
+    }
+
+    .cards .card{
+        margin-top: 30px;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .box .box-left{
+        width: 90%;
+    }
+
+    .box .box-rigth{
+        display: none;
+    }
+
+        /*Carta*/
+
+    .contain{
+        width: 85%;
+    }    
+    .contain .plato{
+        margin: 20px 50px;
+    }
+
+    
+    .contain #ante-encabezado{
+        width: 50%;
+        margin: 10px 25%;
+        text-align: center;
+    }
+
+    
+    .contain .plato .button{
+        margin: 10px 34%;
+    }
+
+    .bg-img .carta-bg{
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .adicionales{
+        margin-top: 40px;
+        width: 50%;
+    }
+
+    .bebidas{
+        width: 70%;
+    }
+
+    /*Nosotros*/
+
+    .banner-nosotros{
+    width: 100%;
+    height: 60vh;
+}
+
+    .banner-nosotros h2{
+        padding: 2rem 0 3rem 2rem;
+        font-size: 35px;
+    }
+
+    .banner-nosotros .b-nosotros{
+        max-width: 900px;
+        font-size: 15px;
+        padding: 0 100px 0 30px;
+        line-height: 30px;
+    }
+ 
+    .container-n{
+        margin: 50px auto ;
+        max-width: 1010px;
+        padding: 0 20px;
+    }
+
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub-container img{
+        margin-left: 60px;
+    }
+
+
+
 }

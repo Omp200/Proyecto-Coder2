@@ -12,16 +12,25 @@
 </head>
 <body id="carta">
     <header class="navbar">
-        <div class="left">
-            <a href="index.html"><img src="img/Logo.png" alt="Logo-local"></a>
-            <p>Coal Burger</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="Logo-local"> <span class="navsp">Coal Burger</span></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="carta.html">Carta</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            </ul>
         </div>
-        <ul class="rigth">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="carta.html">Carta</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-        </ul>
         </div>
+    </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </header>
     
     <div class="banner">
@@ -84,7 +93,7 @@
             <h4 class="carta-bg">Adicionales</h4>
             <div class="plato">
                 <div class="sub-box">
-                    <h4>Papas Fritas Clásicas</h4>
+                    <h4>Papas Clásicas</h4>
                     <p>Papas cortadas a mano con sal de mar</p>
                 </div>
                 <span class="precio">s/.5.00</span>
@@ -101,7 +110,7 @@
             <div class="plato">
                 <div class="sub-box">
                     <h4>Sweet Potato Fries</h4>
-                    <p>Bastones de camote con salsa especial</p>
+                    <p>Bastones de camote</p>
                 </div>
                 <span class="precio">s/.8.00</span>
             </div>
