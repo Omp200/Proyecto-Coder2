@@ -2,3 +2,12 @@ $ligth-color:white;
 $bg-color-black:rgb(37, 36, 36);
 $red-color:red;
 $bg-color-footer:rgb(107, 107, 107);
+
+.btn-base {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
