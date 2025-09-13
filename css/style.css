@@ -271,17 +271,20 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-shadow: 2px 2px 4px black;
 }
 .bg-img .adicionales {
   width: 50%;
 }
-.bg-img .adicionales .carta-bg {
+.bg-img .carta-bg {
   font-weight: 700;
   font-size: 35px;
   text-align: center;
+  text-shadow: 4px 4px 6px black;
 }
 .bg-img .bebidas {
   width: 50%;
+  text-shadow: 2px 2px 4px black;
 }
 .bg-img .plato {
   display: flex;
@@ -527,7 +530,7 @@ footer {
     max-width: 900px;
     font-size: 15px;
     padding: 0 100px 0 30px;
-    line-height: 30px;
+    line-height: 1.5;
   }
   .container-n {
     margin: 50px auto;
