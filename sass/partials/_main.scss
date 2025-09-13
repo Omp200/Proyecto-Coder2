@@ -598,22 +598,19 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        .cards #img1{
-            width: 18rem ; 
-            height: 30rem;
-        }
-
-        .cards #img2{
-            width: 18rem ; 
-            height: 30rem;
-        }
-
-        .cards #img3{
-            width: 18rem ; 
-            height: 30rem;
-        }
     }
+
+    #img1{
+            width: 18rem ; 
+        }
+
+    #img2{
+            width: 18rem ; 
+    }
+
+    #img3{
+            width: 18rem ; 
+        }
 
     
 
@@ -656,13 +653,23 @@ footer{
     
     .contain .plato .button{
         margin: 10px 34%;
+        text-align: center;
     }
 
     .bg-img .carta-bg{
         font-weight: 700;
         font-size: 25px;
-        text-align: center;
     }
+
+    .sub-box{
+            h4{
+                font-size: 17px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+        }
 
     .adicionales{
         margin-top: 40px;

@@ -491,17 +491,14 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  .cards .cards #img1 {
+  #img1 {
     width: 18rem;
-    height: 30rem;
   }
-  .cards .cards #img2 {
+  #img2 {
     width: 18rem;
-    height: 30rem;
   }
-  .cards .cards #img3 {
+  #img3 {
     width: 18rem;
-    height: 30rem;
   }
   .cards .card {
     margin-top: 30px;
@@ -533,11 +530,17 @@ footer {
   }
   .contain .plato .button {
     margin: 10px 34%;
+    text-align: center;
   }
   .bg-img .carta-bg {
     font-weight: 700;
     font-size: 25px;
-    text-align: center;
+  }
+  .sub-box h4 {
+    font-size: 17px;
+  }
+  .sub-box p {
+    font-size: 15px;
   }
   .adicionales {
     margin-top: 40px;
