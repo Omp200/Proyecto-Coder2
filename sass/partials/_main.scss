@@ -549,6 +549,28 @@ footer{
         padding: 5px;
         border-radius: 10px;
         }
+    
+    .plato::before{
+        content: '';
+        background: url(../img/bg-image.jpg) no-repeat center center / cover;
+        width: 50%;
+        height: 80%;
+    }
+    
+    .bg-img {
+        .bebidas{
+            .precio {
+                font-weight: bold;
+                font-size: 15px;
+            }
+        }
+        .adicionales{
+            .precio {
+                font-weight: bold;
+                font-size: 15px;
+            }
+        }
+    }
 
     .anuncio p{
             padding-top: 20px;
@@ -562,17 +584,17 @@ footer{
     }
 
     .cards #img1{
-        width: 20rem ; 
+        width: 18rem ; 
         height: 30rem;
     }
 
     .cards #img2{
-        width: 20rem ; 
+        width: 18rem ; 
         height: 30rem;
     }
 
     .cards #img3{
-        width: 20rem ; 
+        width: 18rem ; 
         height: 30rem;
     }
 
