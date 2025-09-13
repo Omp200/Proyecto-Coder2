@@ -581,22 +581,24 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        .cards #img1{
+            width: 18rem ; 
+            height: 30rem;
+        }
+
+        .cards #img2{
+            width: 18rem ; 
+            height: 30rem;
+        }
+
+        .cards #img3{
+            width: 18rem ; 
+            height: 30rem;
+        }
     }
 
-    .cards #img1{
-        width: 18rem ; 
-        height: 30rem;
-    }
-
-    .cards #img2{
-        width: 18rem ; 
-        height: 30rem;
-    }
-
-    .cards #img3{
-        width: 18rem ; 
-        height: 30rem;
-    }
+    
 
     .cards .card{
         margin-top: 30px;

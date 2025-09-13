@@ -476,15 +476,15 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  .cards #img1 {
+  .cards .cards #img1 {
     width: 18rem;
     height: 30rem;
   }
-  .cards #img2 {
+  .cards .cards #img2 {
     width: 18rem;
     height: 30rem;
   }
-  .cards #img3 {
+  .cards .cards #img3 {
     width: 18rem;
     height: 30rem;
   }
