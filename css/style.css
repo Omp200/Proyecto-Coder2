@@ -430,8 +430,8 @@ footer {
     grid-template-areas: "burger1 burger1" "burger2 burger2" "acompanamiento1 acompanamiento1" "acompanamiento2 acompanamiento2" "promociones promociones";
     gap: 10px;
   }
-  .contenido .encima {
-    font-size: 10px;
+  .container .contenido .encima {
+    font-size: 20px;
   }
   .anuncio {
     background-color: rgb(37, 36, 36);

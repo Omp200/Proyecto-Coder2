@@ -520,10 +520,12 @@ footer{
         "promociones promociones"
         ;
         gap: 10px;
-        }
 
-    .contenido .encima{
-        font-size: 10px;
+        .contenido{
+            .encima{
+                font-size: 20px;
+            }
+        }
     }
 
     .anuncio{
@@ -669,11 +671,3 @@ footer{
 
 
 }
-
-
-
-
-
-
-
-
